@@ -16,15 +16,14 @@
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-  }
+  } 
 *{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 body{
     margin: 0;
     padding: 0;
 }
-
 /* Styles Start Here */
 .header-section{
     background: rgba(229, 84, 115, 0.1);
@@ -35,35 +34,35 @@ body{
 }
 .left-side{
     width: 60%;
-
 }
 .left-side h2{
     font-family: "Poppins", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     color: rgb(39, 39, 39);
-    margin-left:190px;
+    margin-left:170px;
     margin-top: 140px;
 }
 .left-side p{
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
-    margin-left:190px;
+    line-height: 1.1rem;
+    margin-left:170px;
 }
 .left-side button{
-    width: 170px;
-    height: 60px;
+    width: 100px;
+    height: 40px;
     border-radius: 8px;
     background: rgb(229, 84, 115);
-    padding: 15px 30px 15px 30px;
+    padding: 10px 15px 10px 15px;
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 700;
     color: #fff;
     border: none;
-    margin-left:190px;
+    margin-left:170px;
 }
 .right-side{
     width: 40%;
@@ -74,4 +73,143 @@ body{
     /* margin-right: 200px; */
     margin-top: 40px;
     margin-bottom: -5px;
+}
+/* Our Featured Flowers */
+/* .our-featured-section{ 
+} */
+.our-featured-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.our-featured-container h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.rectangle-container{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+
+.Rectangle-one{
+    width: 280px;
+    height: 300px;
+    border-radius: 200px 200px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 24px;
+}
+.Rectangle-one img{
+    width: 180px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 48px;
+}
+.rectangle-onetext{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 100px;
+    margin-left: 80px;
+    
+}
+.Rectangle-two{
+    width: 280px;
+    height: 300px;
+    border-radius: 200px 200px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 24px;
+}
+.Rectangle-two img{
+    width: 180px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 48px;
+}
+.Rectangle-three{
+    width: 280px;
+    height: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.Rectangle-three img{
+    width: 180px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 48px;
+}
+/* Same Day Container */
+.same-day-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.same-day-photo-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.same-day-groupph-one img{
+    width: 77px;
+    height: 77px;
+    border-style: dashed;
+    border-width: 2px;
+    color: #bfbfbf;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.same-day-groupph-one h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+    margin-left: 20px;
+}
+.same-day-groupph-two img{
+    width: 77px;
+    height: 77px;
+    border-style: dashed;
+    border-width: 2px;
+    color: #bfbfbf;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.same-day-groupph-two h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+    margin-left: 40px;
+}
+.same-day-groupph-three img{
+    width: 77px;
+    height: 77px;
+    border-style: dashed;
+    border-width: 2px;
+    color: #bfbfbf;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.same-day-groupph-three h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+    margin-left: 80px;
+}
+
+/*  */
+.hot-deal-container{
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-subcontainer{
+    display: flex;
 }
